@@ -38,7 +38,7 @@ header {
 
 .title {
   font-size: 7rem;
-  color: white;
+  color: black;
   text-shadow: 0 0 5px black;;
 }
 
@@ -46,5 +46,5 @@ section {
   font-size: 1rem;
   padding: 1rem;
   background-color: #FBFCFC;
-  color: white;
+  color: black;
 }
