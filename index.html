@@ -19,13 +19,13 @@
   </div>
 
 <div id="main">
-                <center> <img src="img/np.png" alt="2emk7 is better than any other coder trust me" /></li></center>
+                <center> <img src="img/np.png" alt="2emk7.github.io" /></li></center>
  
 <section>       
                                     
     <center><a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=8060240&style=0006&nbdigits=6&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a></center>         
     <h1 style="color:black;">Bookmarklets</h1>
-     <h3 style="color:black;">Last Update: 01/10/23</h3>    
+     <h3 style="color:black;">Last Update: 02/28/23</h3>    
     
 <details>
     <summary style="color:black;">How to install a bookmarklet (click me)</summary>
@@ -53,8 +53,12 @@
     <p style="color:black;"><a href="javascript:var num=prompt(Enter # of times you want this site to appear in your history);done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert(&quot;History Flooding Successful!\n &quot;+window.location.href+&quot; \nNow Appears In Your History &quot;+num+(num==1?&quot; time.&quot;:&quot; Times. \nYoinked by 2emk7&quot;))}">History Flooder</a> - Just click and enter up to 1000 how many times you want the site you are curently on to show up in history</p>
     
     <p style="color:black;"><a href="javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0">Edit Page</a> - Click bookmark on page you want to edit. You will be able to freely edit the page</p>
+
+    <p style="color:black;"><a href="javascript:document.body.contentEditable = 'false'; document.designMode='off'; void 0">Stop Editing  Page</a> - Click bookmarklet on the page you are editing on, and edit mode will close</p>
     
     <p style="color:black;"><a href="javascript: (function () { document.body.style.filter = 'blur(5px)'; })();">Blur</a> - Click and it just blurs your page</p>
+
+    <p style="color:black;"><a href="javascript:(function () {document.body.style.filter = 'none';})();">Unblur</a> - Click and it unblurs your page</p>
     
     <p style="color:black;"><a href="javascript:(async () => { let n = document.createElement('iframe'); document.body.append(n); window.alert = n.contentWindow.alert.bind(window); window.prompt = n.contentWindow.prompt.bind(window); window.confirm = n.contentWindow.confirm.bind(window); n.remove(); function reactHandler() { return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner; }; if (window.location.pathname != '/play/fishing') { alert('You must be in a fishing frenzy game!'); } else { let weight = Number(parseFloat(prompt('How much weight do you want?'))); reactHandler().stateNode.setState({ weight2: weight, weight }); alert('Weight set!'); };})();">Set Desired weight Blooket Fishing Frenzy</a> - click bookmarklet when on fishing frenzy and enter desired weight</p>
     
@@ -90,7 +94,11 @@
     
     <p><a href="javascript:(function(){var title=prompt(&quot;New title?&quot;);document.title=title})();">Tab rename</a> - click bookmark when you are on tab you want to rename</p>
     
-    <p><a href="javascript:((function()%7Bvar a,b,c;c=&quot;https://www.bing.com/&quot;,b=document.createElement(&quot;iframe&quot;),b.setAttribute(&quot;src&quot;,c),b.setAttribute(&quot;id&quot;,&quot;rusic-modal&quot;),b.setAttribute(&quot;style&quot;,&quot;position: fixed; z-index: 999999; width: 1333px; height: 768px; right: 10px; top: 10px; border: 5px solid #8834af; overflow: hidden; background-color: #fff;"),a=document.getElementsByTagName(&quot;body&quot;)%5B0%5D,a.appendChild(b)%7D)).call(this)">popup browser</a> - Just click and a bing browser will pop up</p>
+    <p><a href="javascript:(function() { var a,b,c; c = &quot;https://www.bing.com/&quot;; b = document.createElement(&quot;iframe&quot;); b.setAttribute(&quot;src&quot;, c); b.setAttribute(&quot;id&quot;,&quot;rusic-modal&quot;); b.setAttribute(&quot;style&quot;,&quot;position: fixed; z-index: 999999; width: 1333px; height: 768px; right: 10px; top: 10px; border: 5px solid #8834af; overflow: hidden; background-color: #fff;&quot;); document.body.appendChild(b);})();">popup browser</a> - Click and a bing browser will pop up</p>
+
+    <p><a href="javascript:(function() { var iframe = document.getElementById(&quot;rusic-modal&quot;); if (iframe) { iframe.parentNode.removeChild(iframe); }})();">close popup browser</a> - Click and the bing popup broswer will close</p>
+
+    <p><a href="javascript:(function() {  var color = window.prompt(&quot;Enter a color (e.g. red, yellow, blue): MADE BY 2emk7&quot;);  if (!color) { return; }  var range = window.getSelection().getRangeAt(0);  var highlight = document.createElement(&quot;span&quot;);  highlight.style.backgroundColor = color;  highlight.appendChild(range.extractContents());  range.insertNode(highlight);})();">highlighter</a> - Click and answer the prompt, then highlight text</p>
         
         <hr>
         
